@@ -45,3 +45,20 @@ svg:hover {
   fill: blueviolet;
   cursor: pointer;
 }
+
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
